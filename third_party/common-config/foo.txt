@@ -1,4 +1,0 @@
-First foo
-second foo
-thrid foo
-fourth foo
