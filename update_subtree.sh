@@ -8,5 +8,5 @@
 #
 # SPDX-License-Identifier:	ISC
 
-git subtree pull --prefix third_party/common-config https://github.com/SymbiFlow/symbiflow-common-config.git --squash
+git subtree pull --prefix third_party/common-config https://github.com/xanjohns/common-config.git subtree-script --squash
 
