@@ -1,1 +1,0 @@
-This si the text file that goes in /docs

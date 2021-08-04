@@ -1,4 +1,4 @@
-    git subtree add --prefix third_party/common-config https://github.com/xanjohns/common-config.git subtree-script --squash
+git subtree add --prefix third_party/common-config https://github.com/xanjohns/common-config.git subtree-script --squash
 
     #Make necessary directories
     shopt -s dotglob
