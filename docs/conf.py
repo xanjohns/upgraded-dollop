@@ -33,6 +33,8 @@ repo_description = repo.description
 repo_name = "SymbiFlow/" + repo.remotes.origin.url.split('.git')[0].split('/')[-1]
 repo_url = 'https://github.com/' + repo_name
 
+#This is a test line and should be removed
+
 # -- Project information -----------------------------------------------------
 project = repo_name
 copyright = '2021, SymbiFlow Team'
