@@ -8,7 +8,7 @@
 #
 # SPDX-License-Identifier:	ISC
 
-git subtree pull --prefix third_party/common-config https://github.com/SymbiFlow/symbiflow-common-config.git main subtree-script --squash
+git subtree pull --prefix third_party/common-config https://github.com/xanjohns/common-config.git test-update --squash
 
 #Make necessary directories
 shopt -s dotglob
@@ -27,5 +27,4 @@ do
   filedir="$(dirname $file)"
   mv $file .${filedir##*common-config}
 done
-
 

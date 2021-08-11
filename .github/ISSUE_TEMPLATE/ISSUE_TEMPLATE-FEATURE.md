@@ -1,1 +1,0 @@
-../../third_party/common-config/.github/ISSUE_TEMPLATE/ISSUE_TEMPLATE-FEATURE.md
