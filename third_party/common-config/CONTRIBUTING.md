@@ -1,4 +1,4 @@
-# This is the test line added in common-config
+#TEST LINE FROM CC part 2
 # Contributing to Symbiflow Projects
 
 There are a couple of guidelines when contributing to Symbiflow Projects which are
