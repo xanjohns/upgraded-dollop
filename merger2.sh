@@ -15,5 +15,5 @@ git subtree add --prefix third_party/common-config https://github.com/xanjohns/c
     do
       [[ -f ${file##*common-config/} ]] && cp ${file##*common-config/} "orig/${file##*/}-orig"
       filedir="$(dirname $file)"
-      mv $file .${filedir##*common-config}
+      ln -sr $file .${filedir##*common-config}
     done
