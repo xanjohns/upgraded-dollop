@@ -1,7 +1,7 @@
 name: Update Common Config
 on:
   schedule:
-    - cron: '7 * * * *'
+    - cron: '10 * * * *'
 jobs:
   update-common-config:
     runs-on: ubuntu-latest
