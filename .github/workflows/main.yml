@@ -16,5 +16,5 @@ jobs:
           branch: common-config-update
           delete-branch: true
           title: Common-config automatic update
-          body: The following files were changed:
+          body: "The following files were changed:"
           labels: common-config
