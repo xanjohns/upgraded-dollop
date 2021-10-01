@@ -12,4 +12,9 @@ jobs:
       - uses: xanjohns/common-config-action@v3.9.1
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3.10.1
-
+        with:
+          branch: common-config-update
+          delete-branch: true
+          title: Common-config automatic update
+          body: The following files were changed:
+          labels: common-config
