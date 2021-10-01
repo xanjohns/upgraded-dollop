@@ -6,7 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: setup git configuration
-        run: git config user.name "GitHub Actions Bot"
+        run: |
+             git config user.name "GitHub Actions Bot"
              git config user.email "<>"
       - uses: xanjohns/common-config-action@v3.6
       - name: Create Pull Request
