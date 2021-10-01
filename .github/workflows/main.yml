@@ -11,7 +11,7 @@ jobs:
              git config user.email "<>"
       - name: Pull in subtree
         id: subtree
-        uses: xanjohns/common-config-action@v3.9.3
+        uses: xanjohns/common-config-action@v3.9.4
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3.10.1
         with:
