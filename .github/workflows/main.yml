@@ -1,7 +1,5 @@
 name: Update Common Config
-on: 
-  schedule:
-    - cron: '25 * * * *'
+on: [push]
 jobs:
   update-common-config:
     runs-on: ubuntu-latest
@@ -11,12 +9,12 @@ jobs:
         run: |
              git config user.name "GitHub Actions Bot"
              git config user.email "<>"
-      - uses: xanjohns/common-config-action@v3.9.1
+      - uses: xanjohns/common-config-action@v3.9.2
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3.10.1
         with:
           branch: common-config-update
           delete-branch: true
           title: Common-config automatic update
-          body: "The following files were changed:"
+          body: ${{LOG_MESSAGE}}
           labels: common-config
