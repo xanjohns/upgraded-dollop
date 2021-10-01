@@ -19,5 +19,5 @@ jobs:
           delete-branch: true
           title: Common-config automatic update
           body: |
-            "${{steps.subtree.outputs.LOG_MESSAGE}}"
+            ${{steps.subtree.outputs.LOG_MESSAGE}}
           labels: common-config
