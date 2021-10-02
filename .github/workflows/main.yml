@@ -14,7 +14,7 @@ jobs:
         uses: xanjohns/common-config-action@v4.0.2
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3.10.1
-        if: ${{steps.subtree.outputs.CHANGES}}==true
+        if: ${{ steps.subtree.outputs.CHANGES == true }}
         with:
           branch: common-config-update
           delete-branch: true
