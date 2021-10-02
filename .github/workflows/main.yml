@@ -11,7 +11,7 @@ jobs:
              git config user.email "<>"
       - name: Pull in subtree
         id: subtree
-        uses: xanjohns/common-config-action@v4.0
+        uses: xanjohns/common-config-action@v4.0.1
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3.10.1
         if: ${{steps.subtree.ouputs.CHANGES==true}}
