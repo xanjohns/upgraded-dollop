@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Pull in subtree
-        uses: xanjohns/common-config-action@v5.0.2
+        uses: xanjohns/common-config-action@v5.0.3
