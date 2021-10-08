@@ -4,6 +4,7 @@ There are a couple of guidelines when contributing to SymbiFlow Projects which a
 listed here.
 
 ### Sending
+added this line
 
 All contributions should be sent as
 [GitHub Pull requests](https://help.github.com/articles/creating-a-pull-request-from-a-fork/).
