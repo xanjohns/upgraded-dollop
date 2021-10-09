@@ -7,7 +7,6 @@ listed here.
 All contributions should be sent as
 [GitHub Pull requests](https://help.github.com/articles/creating-a-pull-request-from-a-fork/).
 
-### License
 
 All software (code, associated documentation, support files, etc) in the
 Symbiflow repositories are licensed under the very permissive
