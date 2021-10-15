@@ -1,5 +1,5 @@
 name: Update Common Config
-on: [workflow_dispatch]
+on: [workflow_dispatch, push]
 jobs:
   update-common-config:
     runs-on: ubuntu-latest
